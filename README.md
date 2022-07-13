@@ -42,7 +42,6 @@ $ git clone https://github.com/Mahdiklidari/zphisher
 - Change to cloned directory and run `zphisher.sh` -
 ```
 $ cd zphisher
-```
 $ bash zphisher.sh
 ```
 
@@ -51,7 +50,6 @@ $ bash zphisher.sh
 ### Run on Docker
 ```
 $ docker pull htrtech/zphisher
-```
 $ docker run --rm -it htrtech/zphisher
 ```
 
