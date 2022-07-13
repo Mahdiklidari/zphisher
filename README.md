@@ -36,12 +36,13 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
 
 - Just, Clone this repository -
 ```
-$ git clone https://github.com/htr-tech/zphisher.git
+$ git clone https://github.com/Mahdiklidari/zphisher
 ```
 
 - Change to cloned directory and run `zphisher.sh` -
 ```
 $ cd zphisher
+```
 $ bash zphisher.sh
 ```
 
@@ -50,6 +51,7 @@ $ bash zphisher.sh
 ### Run on Docker
 ```
 $ docker pull htrtech/zphisher
+```
 $ docker run --rm -it htrtech/zphisher
 ```
 
