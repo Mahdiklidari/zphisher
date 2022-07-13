@@ -4,9 +4,6 @@
   <img src=".imgs/logo.png">
 </p>
 
-<p align="center">
-  <img src="https://dtsb1.ir/atashbanan">
-
 <p align="center">A beginners friendly, Automated phishing tool with 30+ templates.</p>
 
 ##
